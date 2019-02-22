@@ -84,7 +84,7 @@ module.exports = "\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJz
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<!--The content below is only a placeholder and can be replaced.-->\n<div style=\"text-align:center\">\n  <app-nav></app-nav>\n  <br/><br/>\n  <section>\n    <router-outlet></router-outlet>\n  </section>\n  <app-footer></app-footer>"
+module.exports = "<!--The content below is only a placeholder and can be replaced.-->\n<div style=\"text-align:center\">\n  <app-nav></app-nav>\n  <br /><br />\n  <section>\n    <router-outlet></router-outlet>\n  </section>\n  <br /><br />\n  <app-footer></app-footer>\n</div>\n"
 
 /***/ }),
 
@@ -241,7 +241,7 @@ var ContactComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".footer-container{\n    position: fixed;\n    bottom: 0;\n    width: 100%;\n    background-color: white;\n    left:0;\n}\n\n#copyright {\n    font-size: 7pt;\n}\n\na {\n    text-decoration: none;\n    color:black;\n  }\n\na:hover {\n    color: red;\n  }\n\n#footer-nav{\n    font-size: 7pt;\n\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvZm9vdGVyL2Zvb3Rlci5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksZUFBZTtJQUNmLFNBQVM7SUFDVCxXQUFXO0lBQ1gsdUJBQXVCO0lBQ3ZCLE1BQU07QUFDVjs7QUFFQTtJQUNJLGNBQWM7QUFDbEI7O0FBRUE7SUFDSSxxQkFBcUI7SUFDckIsV0FBVztFQUNiOztBQUVBO0lBQ0UsVUFBVTtFQUNaOztBQUVGO0lBQ0ksY0FBYzs7QUFFbEIiLCJmaWxlIjoic3JjL2FwcC9mb290ZXIvZm9vdGVyLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuZm9vdGVyLWNvbnRhaW5lcntcbiAgICBwb3NpdGlvbjogZml4ZWQ7XG4gICAgYm90dG9tOiAwO1xuICAgIHdpZHRoOiAxMDAlO1xuICAgIGJhY2tncm91bmQtY29sb3I6IHdoaXRlO1xuICAgIGxlZnQ6MDtcbn1cblxuI2NvcHlyaWdodCB7XG4gICAgZm9udC1zaXplOiA3cHQ7XG59XG5cbmEge1xuICAgIHRleHQtZGVjb3JhdGlvbjogbm9uZTtcbiAgICBjb2xvcjpibGFjaztcbiAgfVxuXG4gIGE6aG92ZXIge1xuICAgIGNvbG9yOiByZWQ7XG4gIH1cblxuI2Zvb3Rlci1uYXZ7XG4gICAgZm9udC1zaXplOiA3cHQ7XG5cbn0iXX0= */"
+module.exports = ".footer-container {\n  position: fixed;\n  bottom: 0;\n  width: 100%;\n  background-color: white;\n  left: 0;\n}\n\n#copyright {\n  font-size: 7pt;\n}\n\na {\n  text-decoration: none;\n  color: black;\n}\n\na:hover {\n  color: #f9da10;\n}\n\n#footer-nav {\n  font-size: 9pt;\n}\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvZm9vdGVyL2Zvb3Rlci5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsZUFBZTtFQUNmLFNBQVM7RUFDVCxXQUFXO0VBQ1gsdUJBQXVCO0VBQ3ZCLE9BQU87QUFDVDs7QUFFQTtFQUNFLGNBQWM7QUFDaEI7O0FBRUE7RUFDRSxxQkFBcUI7RUFDckIsWUFBWTtBQUNkOztBQUVBO0VBQ0UsY0FBYztBQUNoQjs7QUFFQTtFQUNFLGNBQWM7QUFDaEIiLCJmaWxlIjoic3JjL2FwcC9mb290ZXIvZm9vdGVyLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuZm9vdGVyLWNvbnRhaW5lciB7XG4gIHBvc2l0aW9uOiBmaXhlZDtcbiAgYm90dG9tOiAwO1xuICB3aWR0aDogMTAwJTtcbiAgYmFja2dyb3VuZC1jb2xvcjogd2hpdGU7XG4gIGxlZnQ6IDA7XG59XG5cbiNjb3B5cmlnaHQge1xuICBmb250LXNpemU6IDdwdDtcbn1cblxuYSB7XG4gIHRleHQtZGVjb3JhdGlvbjogbm9uZTtcbiAgY29sb3I6IGJsYWNrO1xufVxuXG5hOmhvdmVyIHtcbiAgY29sb3I6ICNmOWRhMTA7XG59XG5cbiNmb290ZXItbmF2IHtcbiAgZm9udC1zaXplOiA5cHQ7XG59XG4iXX0= */"
 
 /***/ }),
 
@@ -297,7 +297,7 @@ var FooterComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".home-container {\n    position: relative;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvaG9tZS9ob21lLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxrQkFBa0I7QUFDdEIiLCJmaWxlIjoic3JjL2FwcC9ob21lL2hvbWUuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5ob21lLWNvbnRhaW5lciB7XG4gICAgcG9zaXRpb246IHJlbGF0aXZlO1xufSJdfQ== */"
+module.exports = "#home-text {\n    text-align:center;\n    margin-left:20%;\n    margin-right:20%;\n}\n\n#home-img {\n    border: 1px solid black;\n}\n\nimg {\n    width:20%;\n    border: 1px solid black;\n}\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvaG9tZS9ob21lLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxpQkFBaUI7SUFDakIsZUFBZTtJQUNmLGdCQUFnQjtBQUNwQjs7QUFFQTtJQUNJLHVCQUF1QjtBQUMzQjs7QUFFQTtJQUNJLFNBQVM7SUFDVCx1QkFBdUI7QUFDM0IiLCJmaWxlIjoic3JjL2FwcC9ob21lL2hvbWUuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIiNob21lLXRleHQge1xuICAgIHRleHQtYWxpZ246Y2VudGVyO1xuICAgIG1hcmdpbi1sZWZ0OjIwJTtcbiAgICBtYXJnaW4tcmlnaHQ6MjAlO1xufVxuXG4jaG9tZS1pbWcge1xuICAgIGJvcmRlcjogMXB4IHNvbGlkIGJsYWNrO1xufVxuXG5pbWcge1xuICAgIHdpZHRoOjIwJTtcbiAgICBib3JkZXI6IDFweCBzb2xpZCBibGFjaztcbn1cbiJdfQ== */"
 
 /***/ }),
 
@@ -308,7 +308,7 @@ module.exports = ".home-container {\n    position: relative;\n}\n/*# sourceMappi
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<h1>About</h1>\n\n<p>\n  I am a senior at Smith College currently finishing up my B.S. in Engineering.\n</p>\n"
+module.exports = "\n<br/><br/>\n<img src=\"../../assets/KOHN.JPG\" />\n\n<div id=\"home-text\">\n  <p>\n    I am a senior at Smith College currently finishing up my B.S. in\n    Engineering.\n  </p>\n  <p>\n    My research experience predominantly concerns clean water engineering. I\n    have worked as a research assistant in the Ismail Lab at Smith college for\n    the last two years. This lab utilizes zooplankton as a filter of microbial\n    pollutants.\n  </p>\n  <p>\n    My engineering interests aren’t solely related to water. This past summer\n    (2018) I had the opportunity to work at the Technical University in\n    Darmstadt, Germany on infrastructural engineering related to electric\n    vehicles.\n  </p>\n  <p>\n    Please feel free to contact me for job opportunities or otherwise.\n  </p>\n</div>\n"
 
 /***/ }),
 
@@ -353,7 +353,7 @@ var HomeComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "ul {\n  list-style-type: none;\n  margin: 0;\n  padding: 0;\n  overflow: hidden;\n  background-color: #333;\n}\n\nli a {\n  display: block;\n  color: white;\n  text-align: center;\n  padding: 14px 16px;\n  text-decoration: none;\n}\n\n/* Change the link color to #111 (black) on hover */\n\nli a:hover {\n  background-color: #111;\n}\n\n.active {\n  background-color: #4caf50;\n}\n\n.nav-container {\n  position: fixed;\n  top: 0;\n  left: 0;\n  width: 100%;\n}\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvbmF2L25hdi5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UscUJBQXFCO0VBQ3JCLFNBQVM7RUFDVCxVQUFVO0VBQ1YsZ0JBQWdCO0VBQ2hCLHNCQUFzQjtBQUN4Qjs7QUFFQTtFQUNFLGNBQWM7RUFDZCxZQUFZO0VBQ1osa0JBQWtCO0VBQ2xCLGtCQUFrQjtFQUNsQixxQkFBcUI7QUFDdkI7O0FBRUEsbURBQW1EOztBQUNuRDtFQUNFLHNCQUFzQjtBQUN4Qjs7QUFFQTtFQUNFLHlCQUF5QjtBQUMzQjs7QUFFQTtFQUNFLGVBQWU7RUFDZixNQUFNO0VBQ04sT0FBTztFQUNQLFdBQVc7QUFDYiIsImZpbGUiOiJzcmMvYXBwL25hdi9uYXYuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbInVsIHtcbiAgbGlzdC1zdHlsZS10eXBlOiBub25lO1xuICBtYXJnaW46IDA7XG4gIHBhZGRpbmc6IDA7XG4gIG92ZXJmbG93OiBoaWRkZW47XG4gIGJhY2tncm91bmQtY29sb3I6ICMzMzM7XG59XG5cbmxpIGEge1xuICBkaXNwbGF5OiBibG9jaztcbiAgY29sb3I6IHdoaXRlO1xuICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gIHBhZGRpbmc6IDE0cHggMTZweDtcbiAgdGV4dC1kZWNvcmF0aW9uOiBub25lO1xufVxuXG4vKiBDaGFuZ2UgdGhlIGxpbmsgY29sb3IgdG8gIzExMSAoYmxhY2spIG9uIGhvdmVyICovXG5saSBhOmhvdmVyIHtcbiAgYmFja2dyb3VuZC1jb2xvcjogIzExMTtcbn1cblxuLmFjdGl2ZSB7XG4gIGJhY2tncm91bmQtY29sb3I6ICM0Y2FmNTA7XG59XG5cbi5uYXYtY29udGFpbmVyIHtcbiAgcG9zaXRpb246IGZpeGVkO1xuICB0b3A6IDA7XG4gIGxlZnQ6IDA7XG4gIHdpZHRoOiAxMDAlO1xufVxuIl19 */"
+module.exports = "ul {\n  list-style-type: none;\n  margin: 0;\n  padding: 0;\n  overflow: hidden;\n  background-color: #333;\n}\n\nli a {\n  display: block;\n  color: white;\n  text-align: center;\n  padding: 14px 16px;\n  text-decoration: none;\n}\n\n/* Change the link color to #111 (black) on hover */\n\nli a:hover {\n  background-color: #f9da10;\n  color:#000;\n  \n}\n\n.active {\n  background-color: #4caf50;\n}\n\n.nav-container {\n  position: fixed;\n  top: 0;\n  left: 0;\n  width: 100%;\n}\n\nimg{\n  width:25px;\n  margin-top:10px;\n  margin-left: 20px;\n  margin-right: 15px;\n\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvbmF2L25hdi5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UscUJBQXFCO0VBQ3JCLFNBQVM7RUFDVCxVQUFVO0VBQ1YsZ0JBQWdCO0VBQ2hCLHNCQUFzQjtBQUN4Qjs7QUFFQTtFQUNFLGNBQWM7RUFDZCxZQUFZO0VBQ1osa0JBQWtCO0VBQ2xCLGtCQUFrQjtFQUNsQixxQkFBcUI7QUFDdkI7O0FBRUEsbURBQW1EOztBQUNuRDtFQUNFLHlCQUF5QjtFQUN6QixVQUFVOztBQUVaOztBQUVBO0VBQ0UseUJBQXlCO0FBQzNCOztBQUVBO0VBQ0UsZUFBZTtFQUNmLE1BQU07RUFDTixPQUFPO0VBQ1AsV0FBVztBQUNiOztBQUVBO0VBQ0UsVUFBVTtFQUNWLGVBQWU7RUFDZixpQkFBaUI7RUFDakIsa0JBQWtCOztBQUVwQiIsImZpbGUiOiJzcmMvYXBwL25hdi9uYXYuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbInVsIHtcbiAgbGlzdC1zdHlsZS10eXBlOiBub25lO1xuICBtYXJnaW46IDA7XG4gIHBhZGRpbmc6IDA7XG4gIG92ZXJmbG93OiBoaWRkZW47XG4gIGJhY2tncm91bmQtY29sb3I6ICMzMzM7XG59XG5cbmxpIGEge1xuICBkaXNwbGF5OiBibG9jaztcbiAgY29sb3I6IHdoaXRlO1xuICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gIHBhZGRpbmc6IDE0cHggMTZweDtcbiAgdGV4dC1kZWNvcmF0aW9uOiBub25lO1xufVxuXG4vKiBDaGFuZ2UgdGhlIGxpbmsgY29sb3IgdG8gIzExMSAoYmxhY2spIG9uIGhvdmVyICovXG5saSBhOmhvdmVyIHtcbiAgYmFja2dyb3VuZC1jb2xvcjogI2Y5ZGExMDtcbiAgY29sb3I6IzAwMDtcbiAgXG59XG5cbi5hY3RpdmUge1xuICBiYWNrZ3JvdW5kLWNvbG9yOiAjNGNhZjUwO1xufVxuXG4ubmF2LWNvbnRhaW5lciB7XG4gIHBvc2l0aW9uOiBmaXhlZDtcbiAgdG9wOiAwO1xuICBsZWZ0OiAwO1xuICB3aWR0aDogMTAwJTtcbn1cblxuaW1ne1xuICB3aWR0aDoyNXB4O1xuICBtYXJnaW4tdG9wOjEwcHg7XG4gIG1hcmdpbi1sZWZ0OiAyMHB4O1xuICBtYXJnaW4tcmlnaHQ6IDE1cHg7XG5cbn0iXX0= */"
 
 /***/ }),
 
@@ -364,7 +364,7 @@ module.exports = "ul {\n  list-style-type: none;\n  margin: 0;\n  padding: 0;\n 
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<header>\n  <div class=\"nav-container\">\n    <nav>\n      <ul>\n        <li style=\"float:left\"><a routerLink=\"/\">Ruby H. Kohn</a></li>\n        <li style=\"float:right\"><a routerLink=\"/contact\">Contact</a></li>\n        <li style=\"float:right\"><a routerLink=\"/research\">Research</a></li>\n        <li style=\"float:right\"><a routerLink=\"/\">Home</a></li>\n      </ul>\n    </nav>\n  </div>\n</header>\n"
+module.exports = "<header>\n  <div class=\"nav-container\">\n    <nav>\n      <ul>\n          <li style=\"float:left\"><img src=\"../../assets/whitehat.png\"/></li>\n        <li style=\"float:left\"><a routerLink=\"/\">Ruby H. Kohn</a></li>\n        <li style=\"float:right\"><a routerLink=\"/contact\">Contact</a></li>\n        <li style=\"float:right\"><a routerLink=\"/research\">Research</a></li>\n        <li style=\"float:right\"><a routerLink=\"/\">Home</a></li>\n      </ul>\n    </nav>\n  </div>\n</header>\n"
 
 /***/ }),
 
