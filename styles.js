@@ -557,7 +557,7 @@ if(false) {}
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/valeriemcculloch/Projects/sourcecode/rubykohn/src/styles.css */"./src/styles.css");
+module.exports = __webpack_require__(/*! /Users/th27938/Desktop/sourcecode/rubykohn/src/styles.css */"./src/styles.css");
 
 
 /***/ })
