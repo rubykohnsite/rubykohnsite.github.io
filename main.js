@@ -140,6 +140,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _research_research_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./research/research.component */ "./src/app/research/research.component.ts");
 /* harmony import */ var _nav_nav_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./nav/nav.component */ "./src/app/nav/nav.component.ts");
 /* harmony import */ var _footer_footer_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./footer/footer.component */ "./src/app/footer/footer.component.ts");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm5/forms.js");
+
 
 
 
@@ -161,11 +163,12 @@ var AppModule = /** @class */ (function () {
                 _contact_contact_component__WEBPACK_IMPORTED_MODULE_6__["ContactComponent"],
                 _research_research_component__WEBPACK_IMPORTED_MODULE_7__["ResearchComponent"],
                 _nav_nav_component__WEBPACK_IMPORTED_MODULE_8__["NavComponent"],
-                _footer_footer_component__WEBPACK_IMPORTED_MODULE_9__["FooterComponent"]
+                _footer_footer_component__WEBPACK_IMPORTED_MODULE_9__["FooterComponent"],
             ],
             imports: [
                 _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
-                _app_routing_module__WEBPACK_IMPORTED_MODULE_3__["AppRoutingModule"]
+                _app_routing_module__WEBPACK_IMPORTED_MODULE_3__["AppRoutingModule"],
+                _angular_forms__WEBPACK_IMPORTED_MODULE_10__["FormsModule"]
             ],
             providers: [],
             bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"]]
@@ -185,7 +188,7 @@ var AppModule = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "#my-input {\n    font-size:14px;\n}\n\n#my-text {\n    font-size:14px;\n    width: 45%;\n    height: 25%;\n}\n\n#my-button {\n    font-size:14px;\n    background:#f9da10;\n    width: 125px;\n    height: 55px\n} \n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29udGFjdC9jb250YWN0LmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxjQUFjO0FBQ2xCOztBQUVBO0lBQ0ksY0FBYztJQUNkLFVBQVU7SUFDVixXQUFXO0FBQ2Y7O0FBRUE7SUFDSSxjQUFjO0lBQ2Qsa0JBQWtCO0lBQ2xCLFlBQVk7SUFDWjtBQUNKIiwiZmlsZSI6InNyYy9hcHAvY29udGFjdC9jb250YWN0LmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIjbXktaW5wdXQge1xuICAgIGZvbnQtc2l6ZToxNHB4O1xufVxuXG4jbXktdGV4dCB7XG4gICAgZm9udC1zaXplOjE0cHg7XG4gICAgd2lkdGg6IDQ1JTtcbiAgICBoZWlnaHQ6IDI1JTtcbn1cblxuI215LWJ1dHRvbiB7XG4gICAgZm9udC1zaXplOjE0cHg7XG4gICAgYmFja2dyb3VuZDojZjlkYTEwO1xuICAgIHdpZHRoOiAxMjVweDtcbiAgICBoZWlnaHQ6IDU1cHhcbn0gIl19 */"
+module.exports = "#my-input {\n    font-size:14px;\n}\n\n#my-text {\n    font-size:14px;\n    width: 45%;\n    height: 350px;\n}\n\n#my-button {\n    font-size:14px;\n    background:#f9da10;\n    width: 125px;\n    height: 55px\n} \n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29udGFjdC9jb250YWN0LmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxjQUFjO0FBQ2xCOztBQUVBO0lBQ0ksY0FBYztJQUNkLFVBQVU7SUFDVixhQUFhO0FBQ2pCOztBQUVBO0lBQ0ksY0FBYztJQUNkLGtCQUFrQjtJQUNsQixZQUFZO0lBQ1o7QUFDSiIsImZpbGUiOiJzcmMvYXBwL2NvbnRhY3QvY29udGFjdC5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiI215LWlucHV0IHtcbiAgICBmb250LXNpemU6MTRweDtcbn1cblxuI215LXRleHQge1xuICAgIGZvbnQtc2l6ZToxNHB4O1xuICAgIHdpZHRoOiA0NSU7XG4gICAgaGVpZ2h0OiAzNTBweDtcbn1cblxuI215LWJ1dHRvbiB7XG4gICAgZm9udC1zaXplOjE0cHg7XG4gICAgYmFja2dyb3VuZDojZjlkYTEwO1xuICAgIHdpZHRoOiAxMjVweDtcbiAgICBoZWlnaHQ6IDU1cHhcbn0gIl19 */"
 
 /***/ }),
 
@@ -196,7 +199,7 @@ module.exports = "#my-input {\n    font-size:14px;\n}\n\n#my-text {\n    font-si
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<h1>Contact</h1>\n<br /><br />\n<form>\n\n  <!-- name -->\n  <div class=\"field\">\n    <input id = \"my-input\" type=\"text\" name=\"name\" class=\"input\" placeholder=\"Your Name\">\n  </div>\n  <br/>\n  <!-- email -->\n  <div class=\"field\">\n    <input id = \"my-input\" type=\"email\" name=\"email\" class=\"input\" placeholder=\"Your Email\">\n  </div>\n  <br/>\n  <!-- message -->\n  <div class=\"field\">\n    <textarea id=\"my-text\" class=\"textarea\" name=\"message\" placeholder=\"What's on your mind?\"></textarea>\n  </div>\n  <br/>\n  <button type=\"submit\" id=\"my-button\" class=\"button is-danger is-large\">Submit</button>\n\n</form>\n<br /><br />\n\n<p>\n  rubykohnsite @ gmail [dot] com\n</p>\n\n\n\n"
+module.exports = "<h1>Contact</h1>\n<br /><br />\n<form (ngSubmit)=\"processForm()\">\n\n  <!-- name -->\n  <div class=\"field\">\n    <input id = \"my-input\" type=\"text\" name=\"name\" class=\"input\" placeholder=\"Your Name\" [(ngModel)]=\"name\">\n  </div>\n  <br/>\n  <!-- email -->\n  <div class=\"field\">\n    <input id = \"my-input\" type=\"email\" name=\"email\" class=\"input\" placeholder=\"Your Email\" [(ngModel)]=\"email\">\n  </div>\n  <br/>\n  <!-- message -->\n  <div class=\"field\">\n    <textarea id=\"my-text\" class=\"textarea\" name=\"message\" placeholder=\"What's on your mind?\" [(ngModel)]=\"message\"></textarea>\n  </div>\n  <br/>\n  <button type=\"submit\" id=\"my-button\" class=\"button is-danger is-large\">Submit</button>\n\n</form>\n<br /><br />\n\n<p>\n  rubykohnsite @ gmail [dot] com\n</p>\n\n\n\n"
 
 /***/ }),
 
@@ -218,6 +221,14 @@ var ContactComponent = /** @class */ (function () {
     function ContactComponent() {
     }
     ContactComponent.prototype.ngOnInit = function () {
+    };
+    /**
+     * Process the form we have. Send to whatever backend
+     * Only alerting for now
+     */
+    ContactComponent.prototype.processForm = function () {
+        var allInfo = "My name is " + this.name + ". My email is " + this.email + ". My message is " + this.message;
+        alert(allInfo);
     };
     ContactComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
