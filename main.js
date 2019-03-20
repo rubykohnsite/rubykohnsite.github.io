@@ -194,7 +194,7 @@ module.exports = ".footer-container {\n  position: fixed;\n  bottom: 0;\n  width
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<footer class=\"footer-container\">\n  <div id=\"footer-nav\">\n      <a routerLink=\"/\">About</a>&nbsp;|&nbsp;\n      <a routerLink=\"/projects\">Projects</a>&nbsp;|&nbsp;\n      <a href=\"../../assets/KohnResume.pdf\" download>Download Resume</a>\n  </div>\n  <div id=\"copyright\">Copyright 2019 Ruby H. Kohn | All Rights Reserved</div>\n</footer>\n"
+module.exports = "<footer class=\"footer-container\">\n  <div id=\"footer-nav\">\n      <a routerLink=\"/\">About</a>&nbsp;|&nbsp;\n      <a routerLink=\"/projects\">Projects</a>&nbsp;|&nbsp;\n      <a href=\"../../assets/Resume_RubyKohn.pdf\" download>Download Resume</a>\n  </div>\n  <div id=\"copyright\">Copyright 2019 Ruby H. Kohn | All Rights Reserved</div>\n</footer>\n"
 
 /***/ }),
 
@@ -306,7 +306,7 @@ module.exports = "ul {\n  list-style-type: none;\n  margin: 0;\n  padding: 0;\n 
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<header>\n  <div class=\"nav-container\">\n    <nav>\n      <ul>\n        <li style=\"float:left\"><img src=\"../../assets/yellowhat.png\" /></li>\n        <li style=\"float:left\"><a routerLink=\"/\">Ruby H. Kohn</a></li>\n        <li style=\"float:right\">\n          <a href=\"../../assets/KohnResume.pdf\" download>Download Resume</a>\n        </li>\n        <li style=\"float:right\"><a routerLink=\"/projects\">Projects</a></li>\n        <li style=\"float:right\"><a routerLink=\"/\">About</a></li>\n      </ul>\n    </nav>\n  </div>\n</header>\n"
+module.exports = "<header>\n  <div class=\"nav-container\">\n    <nav>\n      <ul>\n        <li style=\"float:left\"><img src=\"../../assets/yellowhat.png\" /></li>\n        <li style=\"float:left\"><a routerLink=\"/\">Ruby H. Kohn</a></li>\n        <li style=\"float:right\">\n          <a href=\"../../assets/Resume_RubyKohn.pdf\" download>Download Resume</a>\n        </li>\n        <li style=\"float:right\"><a routerLink=\"/projects\">Projects</a></li>\n        <li style=\"float:right\"><a routerLink=\"/\">About</a></li>\n      </ul>\n    </nav>\n  </div>\n</header>\n"
 
 /***/ }),
 
